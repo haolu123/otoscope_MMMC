@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "package_root": ".",
+  "num_videos": 104,
+  "embedding_shape": [
+    104,
+    2048
+  ],
+  "cnn_accuracy_recomputed": 0.6346153846153846,
+  "hybrid_accuracy_recomputed": 0.8173076923076923,
+  "cnn_accuracy_expected": 0.6346153846153846,
+  "hybrid_accuracy_expected": 0.8173076923076923,
+  "checks": [
+    "embedding_index row order matches video_probs",
+    "video_probs video_id set matches cnn_hybrid_predictions_table",
+    "CNN predictions match argmax(prob_*)",
+    "Ground Truth matches y_true_name",
+    "CNN Predict matches y_pred_name",
+    "CNN and Hybrid overall accuracies reproduce overall_accuracy_with_95CI.csv"
+  ]
+}

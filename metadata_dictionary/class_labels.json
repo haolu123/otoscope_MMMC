@@ -1,0 +1,30 @@
+{
+  "label_order": [
+    "aom",
+    "effusion",
+    "normal",
+    "perforation",
+    "retraction",
+    "tube",
+    "tympanosclerosis"
+  ],
+  "label_to_index": {
+    "aom": 0,
+    "effusion": 1,
+    "normal": 2,
+    "perforation": 3,
+    "retraction": 4,
+    "tube": 5,
+    "tympanosclerosis": 6
+  },
+  "index_to_label": {
+    "0": "aom",
+    "1": "effusion",
+    "2": "normal",
+    "3": "perforation",
+    "4": "retraction",
+    "5": "tube",
+    "6": "tympanosclerosis"
+  },
+  "note": "The original CNN training manifest included cerumen; cerumen videos were excluded for the reported external evaluation."
+}

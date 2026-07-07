@@ -1,0 +1,37 @@
+{
+  "video_probs.csv": {
+    "source": "multi_modal/video_probs.csv",
+    "source_sha256": "66663b2a3f822c05a4a17a3b5f8e66a5586da7ff9e0ab9f4718c365fa3fb545b",
+    "rows": "104"
+  },
+  "cnn_hybrid_predictions_table.csv": {
+    "source": "multi_modal/cnn_hybrid_predictions_table.csv",
+    "source_sha256": "0c40b0af29e777361fe444481e8936924e76bacfb9a08533b782d80c586fa0ca",
+    "rows": "104"
+  },
+  "overall_accuracy_with_95CI.csv": {
+    "source": "multi_modal/overall_accuracy_with_95CI.csv",
+    "source_sha256": "3977b79fcd0be5f082297e1ae37d151bd01d7ff2ab1583d2ba5e2545933c5150",
+    "rows": "4"
+  },
+  "per_class_metrics_3methods_with_95CI.csv": {
+    "source": "multi_modal/per_class_metrics_3methods_with_95CI.csv",
+    "source_sha256": "27d25b5c458da02c63775ceb95e8379bd4ee976937e405ff603ecead194d9f15",
+    "rows": "18"
+  },
+  "auroc_with_95CI.csv": {
+    "source": "multi_modal/auroc_with_95CI.csv",
+    "source_sha256": "b61824a8621a5c3ba00458dcf08c85e38795c91d0764661087c3bb19089711f4",
+    "rows": "6"
+  },
+  "ablation_threshold_results.csv": {
+    "source": "multi_modal/ablation_threshold_results.csv",
+    "source_sha256": "3d47173852ad3da5b2d990c477e41433ce5d8bbcfd03dbf3ad87aa833c0d767f",
+    "rows": "9"
+  },
+  "patient_level_cohort_summary.csv": {
+    "source": "multi_modal/patient_level_cohort_summary.csv",
+    "source_sha256": "d42f3bf5c17b53e646331e18177b9416d8c01602a53f8a0551982893072b8b43",
+    "rows": "1"
+  }
+}

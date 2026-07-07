@@ -1,0 +1,167 @@
+[
+  {
+    "path": "code/README.md",
+    "bytes": 3474,
+    "sha256": "8f9d6a6a734c83ecc25799c45db068ce61535e45ad07bb7c0a3a542bef1c8db1"
+  },
+  {
+    "path": "code/configs/example_paths.yaml",
+    "bytes": 192,
+    "sha256": "49169f99a6dacb51e67b2bc2bb6bc738858a21e265752fdb5faaae0dfff76221"
+  },
+  {
+    "path": "code/ototymp_ai/__init__.py",
+    "bytes": 147,
+    "sha256": "46ba6cd19edf48f14abdc070e0fc65726d45e2bbbe0a57d1a9eeede80913cb9a"
+  },
+  {
+    "path": "code/ototymp_ai/analysis.py",
+    "bytes": 13374,
+    "sha256": "6c2ffb0ea504ca4bf4d85ee8343c811134d5e62cca04ac56941da5c2444081ab"
+  },
+  {
+    "path": "code/ototymp_ai/data.py",
+    "bytes": 4170,
+    "sha256": "b6ce525a92c7b28ee1aa32138a2fe70c39e9f38a75a7c026b791103c5b243ea5"
+  },
+  {
+    "path": "code/ototymp_ai/fusion.py",
+    "bytes": 6699,
+    "sha256": "42b0a7fbfbb4283f09d41c985e86c177a51d6ca8f6ee70f75d67a17185837168"
+  },
+  {
+    "path": "code/ototymp_ai/labels.py",
+    "bytes": 1165,
+    "sha256": "f7ca228e50ead1e92350194ae217b27d8c70b35b3ad4e11958c69fc1c32b7c56"
+  },
+  {
+    "path": "code/ototymp_ai/metrics.py",
+    "bytes": 3131,
+    "sha256": "20b48b8e9a4b4bb201ba473574aaef4371169faee95b01d83628909df429ce2f"
+  },
+  {
+    "path": "code/ototymp_ai/resnet.py",
+    "bytes": 2225,
+    "sha256": "780c05181ee1444fbda65814661550483246c2a857d395b2fa84f001923937d6"
+  },
+  {
+    "path": "code/ototymp_ai/video_inference.py",
+    "bytes": 4034,
+    "sha256": "6d81647763b0aa23372068b4d221d7fee1c05580772217193a7d48d18b1a4d6a"
+  },
+  {
+    "path": "code/requirements.txt",
+    "bytes": 123,
+    "sha256": "decc4302139d5504c23b80a53cec4543bcdc105c6449afd70603cb40d8f92fc4"
+  },
+  {
+    "path": "code/scripts/run_multimodal_analysis.py",
+    "bytes": 1442,
+    "sha256": "465e5f901b70927234dc46fcbac5fbd65523713a50605dd4913b9bd5257add20"
+  },
+  {
+    "path": "code/scripts/run_video_inference.py",
+    "bytes": 1446,
+    "sha256": "372e4a72adbcb29ab66050ca8abfaa722fccf7c0cee9899fd9ed3b283efe98ba"
+  },
+  {
+    "path": "code/scripts/train_resnet.py",
+    "bytes": 4265,
+    "sha256": "98991b92a195541222a9876eab1238a4e6c5361147443130cd2ce4d21ed3ad53"
+  },
+  {
+    "path": "code/scripts/verify_reproducibility.py",
+    "bytes": 5178,
+    "sha256": "14a598e0a662c3b5d9dc9d01e49d59308d60573d517cfbdd71ac7550462fda50"
+  },
+  {
+    "path": "derived_tables/ablation_threshold_results.csv",
+    "bytes": 1336,
+    "sha256": "3d47173852ad3da5b2d990c477e41433ce5d8bbcfd03dbf3ad87aa833c0d767f"
+  },
+  {
+    "path": "derived_tables/auroc_with_95CI.csv",
+    "bytes": 2055,
+    "sha256": "b61824a8621a5c3ba00458dcf08c85e38795c91d0764661087c3bb19089711f4"
+  },
+  {
+    "path": "derived_tables/cnn_hybrid_predictions_table.csv",
+    "bytes": 3986,
+    "sha256": "2bd9264414ad1f9bc2c83fc53454f53525c1011120fb43aded8f4d65129ba521"
+  },
+  {
+    "path": "derived_tables/overall_accuracy_with_95CI.csv",
+    "bytes": 494,
+    "sha256": "3977b79fcd0be5f082297e1ae37d151bd01d7ff2ab1583d2ba5e2545933c5150"
+  },
+  {
+    "path": "derived_tables/patient_level_cohort_summary.csv",
+    "bytes": 210,
+    "sha256": "d42f3bf5c17b53e646331e18177b9416d8c01602a53f8a0551982893072b8b43"
+  },
+  {
+    "path": "derived_tables/per_class_metrics_3methods_with_95CI.csv",
+    "bytes": 6140,
+    "sha256": "27d25b5c458da02c63775ceb95e8379bd4ee976937e405ff603ecead194d9f15"
+  },
+  {
+    "path": "derived_tables/source_file_hashes.json",
+    "bytes": 1439,
+    "sha256": "9e9c85ebbaf3c992f1c1cb5753d7d02a2907306346b3c303b9baa14e3925259f"
+  },
+  {
+    "path": "derived_tables/video_probs.csv",
+    "bytes": 18514,
+    "sha256": "db59efcf99a788146a6dfd0cacfadf9a2abde208ac0e81081faa87fb3630cd66"
+  },
+  {
+    "path": "docs/CITATION.cff",
+    "bytes": 720,
+    "sha256": "79198982a2ec42e92d011359c6525c711478f5ad4c0f11149afa79faf78d33e4"
+  },
+  {
+    "path": "docs/LICENSE",
+    "bytes": 1078,
+    "sha256": "e97ed289e9230f724f1dd24a564f3af2bf5a03755258ce96aca709ed69438ede"
+  },
+  {
+    "path": "docs/README_reproducibility.md",
+    "bytes": 2386,
+    "sha256": "6275bb3674c929d0f523316280cdb928e7dad0dbf6a9a97a371c2ee2909d3a0a"
+  },
+  {
+    "path": "docs/reproducibility_check.json",
+    "bytes": 657,
+    "sha256": "3ca81e5b2e50d01d60d71e70266d858bbe7a77c9a15d1a892ef9b9ae08d0ee3e"
+  },
+  {
+    "path": "embeddings/embedding_index.csv",
+    "bytes": 2853,
+    "sha256": "66cd722b860451dbe463436290a1627ecc6d2088b88a4256cdbaa4efe2a30495"
+  },
+  {
+    "path": "embeddings/embedding_metadata.json",
+    "bytes": 969,
+    "sha256": "4bd92f65c3293624156d96e7e7a538c90dad7fd09a34c9b21aa6656bd239bd7a"
+  },
+  {
+    "path": "embeddings/video_embeddings.npy",
+    "bytes": 852096,
+    "sha256": "40fb5ca7d8b4692d141c67f82cf6788b83f957e5cbb155f28f90bdd6ffec3a57"
+  },
+  {
+    "path": "metadata_dictionary/class_labels.json",
+    "bytes": 608,
+    "sha256": "b16331f47115f60551efcbdcf66ae3065463e8f29c9e7ef3c99c357200774530"
+  },
+  {
+    "path": "metadata_dictionary/column_descriptions.csv",
+    "bytes": 1875,
+    "sha256": "ac291ef94dfef3fb7fa77c8a6f219bca696ef9d8dfcf1b1717f4bbd570520f07"
+  },
+  {
+    "path": "metadata_dictionary/dataset_splits_summary.csv",
+    "bytes": 861,
+    "sha256": "76d1e22ca601f484f4d5adafb6935a7eca22fa872adea6503fbd887cf3da4675"
+  }
+]

@@ -1,0 +1,5 @@
+cohort_or_split,num_videos,num_with_paired_tympanometry,source_file,notes
+external_paired_tympanometry_analysis_set,104,104,derived_tables/video_probs.csv,The uploaded embeddings and CNN probabilities are restricted to the paired tympanometry subset used for CNN-hybrid comparison.
+external_paired_tympanometry_test,104,104,derived_tables/cnn_hybrid_predictions_table.csv,Subset with paired tympanometry used for CNN-hybrid comparison.
+external_video_only_cnn_full_set_not_included,152,,multi_modal/video_probs.csv,Original CNN-only external output contained more videos; public embeddings/probabilities are filtered to the 104-video paired subset.
+training_manifest_after_cerumen_exclusion,854,,classification_v2/train_dataset.json,Original manifest count after excluding cerumen-labeled videos; random train/validation split is reproduced by the code config.

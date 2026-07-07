@@ -1,0 +1,5 @@
+manifest: "path/to/train_dataset.json"
+metadata: "path/to/deidentified_metadata.xlsx"
+video_probs: "path/to/video_probs.csv"
+output_dir: "outputs"
+checkpoint: "path/to/resnet_checkpoint.ckpt"

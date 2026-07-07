@@ -1,0 +1,14 @@
+numpy
+pandas
+openpyxl
+Pillow
+PyYAML
+torch
+torchvision
+pytorch-lightning
+scikit-learn
+scipy
+statsmodels
+matplotlib
+seaborn
+

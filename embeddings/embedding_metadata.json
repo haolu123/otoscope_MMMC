@@ -1,0 +1,30 @@
+{
+  "embedding_file": "video_embeddings.npy",
+  "embedding_shape": [
+    104,
+    2048
+  ],
+  "embedding_dtype": "float32",
+  "embedding_level": "video",
+  "frame_feature_layer": "ResNet-50 penultimate average-pooling output",
+  "video_aggregation": "mean of frame-level penultimate embeddings across HQ frames",
+  "preprocessing": "Resize to 224x224, ToTensor; matches classification_v2/config_video.yaml external inference transform.",
+  "checkpoint": {
+    "relative_path": "classification_v2/lightning_logs/version_642190/checkpoints/best-macroauroc-epoch=36.ckpt",
+    "sha256": "5d1e3a6e1edd18d24f8961b45304da13d1a2481169314dac39f05341bb08926e"
+  },
+  "config": {
+    "relative_path": "classification_v2/config_video.yaml",
+    "sha256": "91c4335ae04d5aaa8191ad28bdeb7382cdec8242871315bb2ce78a8963fdcdeb"
+  },
+  "labels": [
+    "aom",
+    "effusion",
+    "normal",
+    "perforation",
+    "retraction",
+    "tube",
+    "tympanosclerosis"
+  ],
+  "num_videos": 104
+}

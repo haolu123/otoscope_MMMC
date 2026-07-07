@@ -1,0 +1,22 @@
+file,column,description
+video_probs.csv,video_id,Anonymized external otoscopy video identifier.
+video_probs.csv,num_frames,Number of HQ frames used for video-level CNN probability aggregation.
+video_probs.csv,y_true,Ground-truth class index after excluding cerumen.
+video_probs.csv,y_true_name,Ground-truth class label.
+video_probs.csv,y_pred,CNN predicted class index.
+video_probs.csv,y_pred_name,CNN predicted class label.
+video_probs.csv,prob_*,"CNN video-level class probability, computed as the mean of frame-level softmax probabilities."
+cnn_hybrid_predictions_table.csv,video_id,Anonymized external otoscopy video identifier for paired tympanometry analysis.
+cnn_hybrid_predictions_table.csv,Ground Truth,Reference-standard diagnostic category.
+cnn_hybrid_predictions_table.csv,CNN Predict,CNN-only video-level prediction.
+cnn_hybrid_predictions_table.csv,Hybrid Predict,Prediction after applying tympanometry-guided rule-based integration.
+embedding_index.csv,row_index,Zero-based row index into embeddings/video_embeddings.npy.
+embedding_index.csv,video_id,Anonymized external otoscopy video identifier.
+embedding_index.csv,num_frames,Number of frames averaged to form the video embedding.
+embedding_index.csv,y_true,Ground-truth class index after excluding cerumen.
+embedding_index.csv,y_true_name,Ground-truth class label.
+overall_accuracy_with_95CI.csv,*,Aggregate overall accuracy and 95% confidence intervals for compared methods.
+per_class_metrics_3methods_with_95CI.csv,*,"Per-class accuracy, sensitivity, and specificity with 95% confidence intervals."
+auroc_with_95CI.csv,*,One-vs-rest AUROC and 95% confidence intervals.
+ablation_threshold_results.csv,*,Threshold ablation results for rule-based tympanometry integration.
+patient_level_cohort_summary.csv,*,Aggregate patient-level cohort summary; no patient identifiers are included.
